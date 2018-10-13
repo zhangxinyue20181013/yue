@@ -156,24 +156,32 @@ html, body, main {
     background: #fff9c1
 }
 .page2 h2{position:absolute; top:.8rem;width:100%;height: .9rem ;
+
     line-height: .9rem;text-align: center;font-size: .6rem;font-weight: normal}
 
 .page2 img{position:absolute;top:50%;left:50%;margin-top:0rem;margin-left:-.5rem;width: 1rem;height: 1rem;  }
 
 .page2 img:nth-of-type(1){margin-left:-.66rem;margin-top:-.35rem;width: 1.32rem;height: 1.7rem;}
- .page2 h2, .page2 img{opacity: 0;}
-#oage2  h2{animation:bounceinleft  1s both; }
-#oage2 img:nth-of-type(1){animation:shake  1s both; }
-#oage2 img:not(:nth-of-type(1)){transition: .3s linear;opacity:1;  }
-#oage2 img:nth-of-type(2){margin-top: -2.4rem; }
-#oage2 img:nth-of-type(3){margin-top: -1.2rem;margin-left: 1.5rem; }
-#oage2 img:nth-of-type(4){margin-top: 1.2rem;margin-left: 1.5rem; }
-#oage2 img:nth-of-type(5){margin-top: 2.4rem; }
-#oage2 img:nth-of-type(6){margin-top: 1.2rem;margin-left: -2.5rem; }
-#oage2 img:nth-of-type(7){margin-top: -1.2rem;margin-left: -2.5rem; }
-.page3 {
-    background: darkcyan
-}
+
+.page2  h2 , .page2 img{opacity: 0;}
+
+#page2 h2{animation: bounceInLeft 1s  both;}
+
+#page2 img:nth-of-type(1){animation: shake 1s both;}
+
+#page2 img:not(:nth-of-type(1)){transition: .3s linear;opacity: 1;animation: tada 1s .3s   infinite both}
+
+#page2 img:nth-of-type(2){margin-top: -2.4rem}
+#page2 img:nth-of-type(3){margin-top: -1.2rem;margin-left: 1.5rem}
+#page2 img:nth-of-type(4){margin-top: 1.2rem;margin-left: 1.5rem}
+#page2 img:nth-of-type(5){margin-top:2.4rem;}
+#page2 img:nth-of-type(6){margin-top: 1.2rem;margin-left: -2.5rem }
+#page2 img:nth-of-type(7){margin-top: -1.2rem;margin-left: -2.5rem}
+
+
+
+
+
 .page3 {
     background: #fbffe8;position: relative;  }
 
@@ -190,17 +198,20 @@ html, body, main {
 
     line-height: .4rem;text-align: center;font-size: .2rem;font-weight: normal}
 
-.page4 {
-    background: salmon
-}
+
+.page4 {background:blanchedalmond}
 
 .page5 {
-    background: green
+    background:cornflowerblue;
 }
 
 .page6 {
-    background: #b9a018
+    background:lightpink;
 }
+#page6 img:nth-of-type(1){animation: rotateIn 1s 1s both}
+#page6 h1{position:absolute; top:.8rem;width:100%;height: .9rem ;
+
+    line-height: .9rem;text-align: center;font-size: .6rem;font-weight: normal}
 
 .return {
     z-index: 999;
